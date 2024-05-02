@@ -1,0 +1,10 @@
+if temperature > 30:
+    print('its a hot day')
+    print('Drink plenty of water')
+elif temperature > 20: # (20, 30)
+    print('its a nice day')
+elif temperature > 10: # (10, 20)
+    print('print its a bit cold')
+else:
+    print('its cold')
+    print('done')
